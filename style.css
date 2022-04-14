@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 90%;
+}
+
+.container {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 2rem;
+    /* border: 1px solid #000; */
+    background-image: url(./photo-1577936220068-923b4be596cd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    position: relative;
+}
+
+.countdown {
+    text-align: center;
+    margin: 2rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 3rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    word-spacing: 1rem;
+    line-height: 158.34%;
+}
+
+img {
+    width: 3.3rem;
+    margin-left: 1rem;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0 1rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    width: 13rem;
+}
+
+h5 {
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    right: 1rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+span {
+    display: block;
+    font-size: 7rem;
+    font-weight: 900;
+    /* color: #13a1c8ff; */
+}
+
+.bar {
+    height: 1rem;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+#day-bar {
+    background-color: #54d2d2;
+    height: 100%;
+}
+#hour-bar {
+    background-color: #ffcb00;
+    height: 100%;
+}
+#minute-bar {
+    background-color: #e56555ff;
+    height: 100%;
+}
+#second-bar {
+    background-color: #d1ce41;
+    height: 100%;
+}
+
+@media screen and (max-width:1060px) {
+    img {
+        display: none;
+    }
+}
+@media screen and (max-width:560px) {
+    html {
+        font-size: 50%;
+    }
+}
