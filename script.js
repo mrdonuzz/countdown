@@ -70,7 +70,7 @@ function Countdown() {
     
     let reload = setInterval(Countdown,1000);
     
-    if(day==0 && hour==0 && minute==0 && second==0 ) {
+    if(day==00 && hour==00 && minute==00 && second==00 ) {
         clearInterval(reload); 
     } else {
         reload;
